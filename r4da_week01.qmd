@@ -32,11 +32,15 @@ knitr::include_graphics("images/rstudio.png")
 By default, you will see these panes:
 
 -   **Editor**: This is were you usually code. You can open many different kinds of documents here. We will mostly be using Quarto documents (with a .`qmd` extension, Quarto Markdown), but you will see people use `.Rmd` (R Markdown) or `.R` (plain R code) files.
+
 -   **Console**: This is where the results appear once you execute your R-code. You can also directly type R-code into the console and execute it. This code does not get saved in your files, so better write in the *Editor*.
+
 -   **Environment, History, Connections, Git, Tutorial**: Two are relevant for us:
+
     -   In the **Environment** you have an overview over all the objects currently loaded in your environment (like datasets for). You will learn more about objects later in the course.
 
     -   In **Git** we will use version control and communicate to GitHub.
+
 -   **Files, Plots, Packages, Help, Viewer**: Plots and other things will appear here, don't worry too much about it for the moment.
 
 ## This Document
@@ -104,7 +108,7 @@ print("three") # hashes do not cancel each other out # print(3)
 Now let's actually store something in `R`. This *something* will be called an **object**. Objects can contain information of different *data types*:
 
 |               |               |                                              |
-|------------------|------------------|-------------------------------------|
+|---------------|---------------|----------------------------------------------|
 | **Numeric**   | Numbers       | `c(1, 2.4, 3.14, 4)`                         |
 | **Character** | Text          | `c("1", "blue", "fun", "monster")`           |
 | **Logical**   | True or false | `c(TRUE, FALSE, TRUE, FALSE)`                |
